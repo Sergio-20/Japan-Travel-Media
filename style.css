@@ -1,0 +1,116 @@
+/*Font Imports*/
+@import url("https://fonts.googleapis.com/css?family=Arimo|Playfair+Display|Titillium+Web");
+/*Variables*/
+/*General Elements*/
+html {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  overflow-x: hide !important;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 2rem 0rem;
+}
+
+h1, h4 {
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  background: #222;
+  color: #fff;
+}
+nav ul li {
+  background: #FF0D00;
+  border-radius: 10%;
+  display: inline-block;
+  font-family: "Arimo", sans-serif;
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+nav ul li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+section article {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+section article:hover {
+  cursor: pointer;
+}
+section article:nth-child(2) {
+  background: url("https://images.pexels.com/photos/2187661/pexels-photo-2187661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+  background-size: cover;
+}
+section article:nth-child(3) {
+  background: url("https://images.pexels.com/photos/1134166/pexels-photo-1134166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-size: cover;
+}
+section article:nth-child(4) {
+  background: url("https://images.pexels.com/photos/1829980/pexels-photo-1829980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+  background-size: cover;
+}
+section article:nth-child(5) {
+  background: url("https://images.pexels.com/photos/2187457/pexels-photo-2187457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+  background-size: cover;
+}
+section article:nth-child(6) {
+  background: url("https://images.pexels.com/photos/115603/pexels-photo-115603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+  background-size: cover;
+}
+section article h1 {
+  background: #dc3545;
+  color: #fff;
+  text-align: center;
+}
+section article p {
+  font-family: "Titillium Web", sans-serif;
+}
+section article button {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 15rem;
+}
+section article button:hover {
+  transform: scale(1.2);
+}
+
+/*Classes*/
+.article-heading {
+  opacity: 0.7;
+}
+
+.article-paragraph {
+  background: #0098B3;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  opacity: 0.85;
+}
+
+.default-bkg {
+  background: url("https://images.pexels.com/photos/46253/mt-fuji-sea-of-clouds-sunrise-46253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+}
+
+.featured {
+  background: url("https://images.pexels.com/photos/1822605/pexels-photo-1822605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 1000px) {
+  .article-paragraph {
+    margin-left: 2rem;
+    position: relative;
+    top: 18rem;
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
