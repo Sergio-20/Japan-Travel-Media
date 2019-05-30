@@ -17,34 +17,54 @@ footer {
   background: #222;
   color: #fff;
   padding: 2rem 0rem;
+  nav {
+    ul {
+      display: inline-block;
+      a {
+        color: #fff;
+        list-style-type: none;
+      }
+    }
+  }
 }
 
 h1, h4 {
    font-family: $h-font;
 }
 
-nav {
-  background: #222;
-  color: #fff;
-  ul {
-    li {
-      background: #FF0D00;
-      border-bottom: 2px solid #fff;
-      border-top: 2px solid #fff;
-      display: inline-block;
-      font-family: $btn-font;
-      list-style-type: none;
-      margin-bottom: 0.5rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      margin-top: 2rem;
-      padding: 1rem 2rem;
-      &:hover {
-        cursor: pointer;
-        transform: scale(1.2);
+header{
+
+  nav {
+    background: #222;
+    color: #fff;
+    ul {
+      a {
+        color: #fff;
+        list-style-type: none;
+        &:hover {
+          color: #fff;
+        }
+        li {
+          background: #FF0D00;
+          border-bottom: 2px solid #fff;
+          border-top: 2px solid #fff;
+          display: inline-block;
+          font-family: $btn-font;
+          list-style-type: none;
+          margin-bottom: 0.5rem;
+          margin-left: 2rem;
+          margin-right: 2rem;
+          margin-top: 2rem;
+          padding: 1rem 2rem;
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+          }
+        }
       }
     }
   }
+
 }
 
 section {
@@ -112,6 +132,22 @@ section {
 
 .featured {
   background: url("https://images.pexels.com/photos/1822605/pexels-photo-1822605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+}
+
+.popular-prefectures {
+  background: #222 url("") !important;
+}
+
+.popular-pref-sect {
+  margin: 4rem 0rem;
+  img {
+    margin: 2rem;
+    &:hover {
+      border: 2px solid #007bff;
+      padding: 1rem;
+      transform: scale(1.2);
+    }
+  }
 }
 
 /*Media Queries*/

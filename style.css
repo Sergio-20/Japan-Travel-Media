@@ -11,28 +11,38 @@ footer {
   background: #222;
   color: #fff;
   padding: 2rem 0rem; }
+  footer nav ul {
+    display: inline-block; }
+    footer nav ul a {
+      color: #fff;
+      list-style-type: none; }
 
 h1, h4 {
   font-family: "Playfair Display", serif; }
 
-nav {
+header nav {
   background: #222;
   color: #fff; }
-  nav ul li {
-    background: #FF0D00;
-    border-bottom: 2px solid #fff;
-    border-top: 2px solid #fff;
-    display: inline-block;
-    font-family: "Arimo", sans-serif;
-    list-style-type: none;
-    margin-bottom: 0.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
-    padding: 1rem 2rem; }
-    nav ul li:hover {
-      cursor: pointer;
-      transform: scale(1.2); }
+  header nav ul a {
+    color: #fff;
+    list-style-type: none; }
+    header nav ul a:hover {
+      color: #fff; }
+    header nav ul a li {
+      background: #FF0D00;
+      border-bottom: 2px solid #fff;
+      border-top: 2px solid #fff;
+      display: inline-block;
+      font-family: "Arimo", sans-serif;
+      list-style-type: none;
+      margin-bottom: 0.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top: 2rem;
+      padding: 1rem 2rem; }
+      header nav ul a li:hover {
+        cursor: pointer;
+        transform: scale(1.2); }
 
 section article {
   margin-bottom: 1rem;
@@ -83,6 +93,18 @@ section article {
 
 .featured {
   background: url("https://images.pexels.com/photos/1822605/pexels-photo-1822605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center; }
+
+.popular-prefectures {
+  background: #222 url("") !important; }
+
+.popular-pref-sect {
+  margin: 4rem 0rem; }
+  .popular-pref-sect img {
+    margin: 2rem; }
+    .popular-pref-sect img:hover {
+      border: 2px solid #007bff;
+      padding: 1rem;
+      transform: scale(1.2); }
 
 /*Media Queries*/
 @media only screen and (min-width: 1000px) {
